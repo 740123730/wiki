@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-check will
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -88,7 +88,7 @@ const config = {
         // Algolia 提供的应用 ID
         appId: 'IZBFN6E0BY',
 
-        //  公开 API 密钥：提交它没有危险
+        //  公开 API 密钥：提交它没有危险 
         apiKey: 'Yd2816364d6eecbcf5597035a308ab8b9',
 
         indexName: 'wiki',
