@@ -18,12 +18,3 @@ jobs:
       - name: Build website
         run: yarn build
 
-      - name: Install ssh key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: placeholder
-
-      - name: Adding known hosts
-
-      - name: Deploy to https://www.elecfreaks.com/learn/
