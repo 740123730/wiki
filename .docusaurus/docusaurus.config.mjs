@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\wiki\\wiki\\sidebars.js",
+          "sidebarPath": "D:\\wiki\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "D:\\wiki\\wiki\\src\\css\\custom.css"
+          "customCss": "D:\\wiki\\src\\css\\custom.css"
         }
       }
     ]
@@ -66,6 +66,20 @@ export default {
         }
       ],
       "hideOnScroll": false
+    },
+    "algolia": {
+      "appId": "A6EQY7GSER",
+      "apiKey": "0ec62903d139b30a091f2e00fc7eab05",
+      "indexName": "elecfreaks",
+      "container": "### REPLACE ME WITH A CONTAINER (e.g. div) ###",
+      "debug": false,
+      "contextualSearch": true,
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "footer": {
       "style": "dark",

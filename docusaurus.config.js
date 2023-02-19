@@ -86,13 +86,21 @@ const config = {
       },
       algolia: {
         // Algolia 提供的应用 ID
-        appId: 'IZBFN6E0BY',
+        //appId: 'IZBFN6E0BY',
 
         //  公开 API 密钥：提交它没有危险 
-        apiKey: 'Yd2816364d6eecbcf5597035a308ab8b9',
+        //apiKey: 'Yd2816364d6eecbcf5597035a308ab8b9',
 
-        indexName: 'wiki',
+        //indexName: 'wiki',
+        appId: 'A6EQY7GSER',
 
+        apiKey: '0ec62903d139b30a091f2e00fc7eab05',
+    
+        indexName: 'elecfreaks',
+    
+        container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###',
+    
+        debug: false ,// Set debug to true if you want to inspect the modal
         // 可选：见下文
         contextualSearch: true,
 
