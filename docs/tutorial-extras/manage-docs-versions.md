@@ -47,7 +47,7 @@ The docs version dropdown appears in your navbar:
 
 ![Docs Version Dropdown](./img/docsVersionDropdown.png)
 
-## Update an existing version
+## Update an existing version 
 
 It is possible to edit versioned docs in their respective folder:
 
